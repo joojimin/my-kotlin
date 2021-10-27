@@ -19,3 +19,5 @@ println()
 for (i in (1..9).filter { it % 3 == 0 || it % 5 == 0 }) {
     print("$i, ") // 3, 5, 6, 9
 }
+
+println()
