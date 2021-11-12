@@ -1,4 +1,4 @@
-fun nickName(name: String): String {
+fun nickName(name: String?): String? {
     if (name == "William") {
         return "Bill"
     }

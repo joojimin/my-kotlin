@@ -14,5 +14,5 @@ copyFromTo(fruitsBasket1, fruitsBasket2) // no problem
 
 
 val fruitsBasket3 = Array<Fruit>(3) { _ -> Fruit() }
-val fruitsBasket4 = Array<Banana>(3) { _ -> Fruit() }
-copyFromTo(fruitsBasket3, fruitsBasket4) // type mismatch
+//val fruitsBasket4 = Array<Banana>(3) { _ -> Fruit() }
+//copyFromTo(fruitsBasket3, fruitsBasket4) // type mismatch
